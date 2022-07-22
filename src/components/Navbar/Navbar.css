@@ -1,0 +1,19 @@
+.user {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user__information {
+    display: flex;
+    align-items: center;
+}
+
+.user__img {
+    max-width: 4rem;
+    margin-right: 1rem;
+}
+
+.user__img img {
+    width: 100%;
+}
