@@ -1,0 +1,19 @@
+.carusel {
+    padding: 1rem;
+}
+
+.product__img {
+    width: 10rem !important;
+    height: 10rem !important;
+    margin-right: 1rem !important;
+    border: 5px solid;
+    border-radius: 0.8rem;
+}
+
+
+
+.product__img img {
+    /* object-fit: cover; */
+    width: 100%;
+    height: 100%;
+}
