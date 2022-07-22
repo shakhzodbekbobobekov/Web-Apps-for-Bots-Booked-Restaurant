@@ -1,0 +1,23 @@
+.form {
+    padding: 1.2rem;
+   text-align: center;
+}
+
+.form input{
+    width: 60%;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+}
+
+.form label {
+    position: relative;
+}
+
+.setting-icon {
+    max-width: 1rem;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    cursor: pointer;
+}

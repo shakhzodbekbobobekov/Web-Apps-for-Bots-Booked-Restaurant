@@ -1,7 +1,9 @@
+/* !user */
 .user {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 1rem;
 }
 
 .user__information {
@@ -10,10 +12,33 @@
 }
 
 .user__img {
-    max-width: 4rem;
+    max-width: 3rem;
     margin-right: 1rem;
 }
 
 .user__img img {
     width: 100%;
+}
+
+.user__about p {
+    color: #ccc;
+}
+
+h3 {
+    margin-top: 0.5rem;
+}
+
+/* !user__products */
+.user__products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user__products img {
+    max-width: 3rem;
+}
+
+.bell-icon {
+    margin-right: 1rem;
 }

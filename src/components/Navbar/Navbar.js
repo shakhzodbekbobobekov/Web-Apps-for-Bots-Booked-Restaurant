@@ -13,7 +13,7 @@ function Navbar() {
             </Link>
           </div>
           <div className="user__about">
-            <p>Good Morning</p>
+            <p>Good Morning ✌️</p>
             <h3>Andrew Ainsly</h3>
           </div>
         </div>
