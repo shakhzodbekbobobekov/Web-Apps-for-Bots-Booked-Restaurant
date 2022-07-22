@@ -36,9 +36,25 @@ h3 {
 }
 
 .user__products img {
-    max-width: 3rem;
+    max-width: 2.5rem;
 }
 
 .bell-icon {
     margin-right: 1rem;
+}
+
+
+/* !Media Query */
+@media( min-width:0 ) and ( max-width: 375px ) {
+    body {
+        background-color: #ccc;
+    }
+.user {
+        justify-content: space-between;
+    }
+
+    /* !user__products */
+        .user__products img {
+            max-width: 2rem;
+        }
 }

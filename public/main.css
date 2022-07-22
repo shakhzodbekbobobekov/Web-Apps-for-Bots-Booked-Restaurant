@@ -6,8 +6,8 @@
 }
 
 *:focus {
-    outline: 2px dotted #ff7500;
-    outline-offset: 3px;
+    outline: 2px dotted #32B768;
+    outline-offset: 2px;
 }
 
 html {
@@ -31,4 +31,16 @@ ul li {
     margin-left: auto;
     margin-right: auto;
     background-color: aqua;
+}
+
+@media(min-width:0) and (max-width: 375px) {
+    .container {
+            max-width: 37.5rem;
+            width: 100%;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(255, 0, 183);
+        }
 }

@@ -4,7 +4,7 @@
 }
 
 .form input{
-    width: 60%;
+    width: 63%;
     border: none;
     border-radius: 0.5rem;
     padding: 0.4rem;
@@ -20,4 +20,13 @@
     top: 0;
     right: 1rem;
     cursor: pointer;
+}
+
+@media(min-width:0) and (max-width: 375px) {
+    .form input {
+        width: 100%;
+    }
+    .setting-icon {
+    max-width: 1.2rem;
+    }
 }

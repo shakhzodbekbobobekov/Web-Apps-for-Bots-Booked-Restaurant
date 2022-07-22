@@ -18,16 +18,20 @@ function Navbar() {
           </div>
         </div>
         <div className="user__products">
-          <img
-            className="bell-icon"
-            src="./images/bell.svg"
-            alt="bell(qo'ng'iroq)"
-          />
-          <img
-            className="heart-icon"
-            src="./images/heart.svg"
-            alt="heart(yurak)"
-          />
+          <Link to="/">
+            <img
+              className="bell-icon"
+              src="./images/bell.svg"
+              alt="bell(qo'ng'iroq)"
+            />
+          </Link>
+          <Link to="/">
+            <img
+              className="heart-icon"
+              src="./images/heart.svg"
+              alt="heart(yurak)"
+            />
+          </Link>
         </div>
       </div>
     </div>
