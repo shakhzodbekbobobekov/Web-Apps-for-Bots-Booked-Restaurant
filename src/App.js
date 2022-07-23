@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Searchbar from "./components/Search/Searchbar";
 import Product from "./components/Product/Product";
+import BottomMenu from "./components/Bottom-Menu/BottomMenu";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Searchbar />
         <Product />
+        <BottomMenu />
       </Router>
     </div>
   );

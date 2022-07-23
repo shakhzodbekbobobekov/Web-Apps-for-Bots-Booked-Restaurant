@@ -1,0 +1,22 @@
+body {
+   position: relative;
+}
+
+.bottom-menu {
+    background-color: #fff;
+    position: fixed;
+    z-index: 9;
+    bottom: 0;
+    right: -50%;
+    left: -50%;
+}
+
+.bottom-menu__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-menu__item:active {
+    opacity: 0.8;
+}
