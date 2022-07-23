@@ -30,7 +30,7 @@ ul li {
     padding-right: 2.5rem;
     margin-left: auto;
     margin-right: auto;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 @media(min-width:0) and (max-width: 375px) {
@@ -41,6 +41,6 @@ ul li {
             padding-right: 1.5rem;
             margin-left: auto;
             margin-right: auto;
-            background-color: rgb(255, 0, 183);
+            /* background-color: rgb(255, 0, 183); */
         }
 }

@@ -46,9 +46,6 @@ h3 {
 
 /* !Media Query */
 @media( min-width:0 ) and ( max-width: 375px ) {
-    body {
-        background-color: #ccc;
-    }
 .user {
         justify-content: space-between;
     }
