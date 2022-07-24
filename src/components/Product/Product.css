@@ -35,7 +35,6 @@
 .product__img-box{
     width: 13rem !important;
     height: 13rem !important;
-    /* border: 5px solid; */
     border-radius: 1rem;
     position: relative;
     background-color: rgba(204, 204, 204, 0.176);

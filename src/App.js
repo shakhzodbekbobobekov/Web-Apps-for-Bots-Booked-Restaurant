@@ -6,6 +6,7 @@ import Product from "./components/Product/Product";
 import BottomMenu from "./components/Bottom-Menu/BottomMenu";
 import Buy from "./components/Buy/Buy";
 import User from "./components/User/User";
+import PageNotFound from "./components/Page-Not-Found/PageNotFound";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path="/" element={<Product />} />
           <Route path="/user" element={<User />} />
           <Route path="/buy" element={<Buy />} />
-          <Route path="*" element={"<h1>Not found</h1>"} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Router>
     </div>

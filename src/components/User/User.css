@@ -1,0 +1,99 @@
+.user-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: centers;
+    margin-top: 1rem;
+}
+
+.user-title a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-title span {
+    margin-left: 0.5rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+}
+
+.user__leaf-icon {
+    max-width: 3rem;
+}
+
+.user__edit-icon {
+    max-width: 3rem;
+}
+
+.user-about {
+    border-bottom: 0.1rem solid #ccc;
+    padding-bottom: 1.3rem;
+}
+
+.user__user-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    position: relative;
+}
+
+.user__user-img .user-img {
+    max-width: 13rem;
+    max-height: 13rem;
+}
+
+.edit-icon {
+    max-width: 2.7rem !important;
+    max-width: 2.7rem !important;
+    background-color: rgb(50, 183, 104);
+    position: absolute;
+    bottom: 0%;
+    left: 53%;
+    border-radius: 0.4rem;
+}
+
+.user-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.user-information h1 {
+    margin-bottom: 0.5rem;
+}
+
+.user-parameter__items div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user-parameter__items div span {
+    margin-left: 0.5rem;
+}
+
+.user-parameter__items a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.1rem;
+    margin-top: 1rem;
+}
+
+.user-parameter__items img {
+    max-width: 2.5rem;
+    max-height: 2.5rem;
+}
+
+/* ! Media query  */
+@media(min-width:0) and (max-width: 375px) {
+    .edit-icon {
+        bottom: -2%;
+        left: 60%;
+    }
+}

@@ -4,7 +4,7 @@
 }
 
 .form input{
-    width: 63%;
+    width: 100%;
     border: 0.1rem solid #ccc;
     border-radius: 0.5rem;
     padding: 0.4rem;
