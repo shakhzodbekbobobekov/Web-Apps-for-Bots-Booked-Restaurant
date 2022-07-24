@@ -12,12 +12,12 @@ function BottomMenu() {
           </Link>
         </li>
         <li className="bottom-menu__item">
-          <Link to="/">
+          <Link to="/buy">
             <img src="./images/shop.svg" alt="shop images" />
           </Link>
         </li>
         <li className="bottom-menu__item">
-          <Link to="/">
+          <Link to="/user">
             <img src="./images/person.svg" alt="person images" />
           </Link>
         </li>

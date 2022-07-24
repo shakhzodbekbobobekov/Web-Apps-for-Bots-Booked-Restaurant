@@ -9,7 +9,7 @@
     padding: 1rem;
 }
 
-.all-product {
+.all-product-title {
     color: rgb(50, 183, 104);
 }
 
@@ -17,14 +17,20 @@
     padding: 1rem;
 }
 
+.slick-slide {
+    margin-right: 2rem;
+}
+
 .product {
     min-width: 15rem !important;
     min-height: 15rem !important;
-    /* border: 2px solid; */
-    /* margin-right: 0.5rem; */
-    /* margin: 2rem; */
     border-radius: 1rem;
+    /* margin-right: 1.5rem; */
+    margin-bottom: 1rem;
+    border: 1px solid;
+    
 }
+
 
 .product__img-box{
     width: 13rem !important;

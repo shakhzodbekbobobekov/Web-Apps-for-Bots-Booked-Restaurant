@@ -17,14 +17,14 @@ function Product() {
     <div className="container">
       <div className="product__title">
         <h1>Special Offers</h1>
-        <h1 className="all-product">See All</h1>
+        <h1 className="all-product-title">See All</h1>
       </div>
       <div className="product-container">
         <div className="carusel">
           <Slider {...settings}>
-            <Link to="/">
-              <div className="product">
-                <div className="product__img-box">
+            <div className="product">
+              <div className="product__img-box">
+                <Link to="/">
                   <img
                     className="product__img"
                     src="./images/tacos.png"
@@ -35,29 +35,29 @@ function Product() {
                     src="./images/heart.svg"
                     alt="heart icon product section"
                   />
-                </div>
-
-                <div className="product__information">
-                  <h1>Lavash</h1>
-                  <div className="product__buy">
-                    <Link to="/">
-                      <img
-                        className="degree-star"
-                        src="./images/star half.svg"
-                        alt="yulduzcha"
-                      />
-                    </Link>
-                    <span>4.8 |</span>
-                    <button>4.268 Sold</button>
-                  </div>
-                  <h2>$29</h2>
-                </div>
+                </Link>
               </div>
-            </Link>
 
-            <Link to="/">
-              <div className="product">
-                <div className="product__img-box">
+              <div className="product__information">
+                <h1>Lavash</h1>
+                <div className="product__buy">
+                  <Link to="/">
+                    <img
+                      className="degree-star"
+                      src="./images/star half.svg"
+                      alt="yulduzcha"
+                    />
+                  </Link>
+                  <span>4.8 |</span>
+                  <button>4.268 Sold</button>
+                </div>
+                <h2>$29</h2>
+              </div>
+            </div>
+
+            <div className="product">
+              <div className="product__img-box">
+                <Link to="/">
                   <img
                     className="product__img"
                     src="./images/tacos.png"
@@ -68,29 +68,29 @@ function Product() {
                     src="./images/heart.svg"
                     alt="heart icon product section"
                   />
-                </div>
-
-                <div className="product__information">
-                  <h1>Lavash</h1>
-                  <div className="product__buy">
-                    <Link to="/">
-                      <img
-                        className="degree-star"
-                        src="./images/star half.svg"
-                        alt="yulduzcha"
-                      />
-                    </Link>
-                    <span>4.8 |</span>
-                    <button>4.268 Sold</button>
-                  </div>
-                  <h2>$29</h2>
-                </div>
+                </Link>
               </div>
-            </Link>
 
-            <Link to="/">
-              <div className="product">
-                <div className="product__img-box">
+              <div className="product__information">
+                <h1>Lavash</h1>
+                <div className="product__buy">
+                  <Link to="/">
+                    <img
+                      className="degree-star"
+                      src="./images/star half.svg"
+                      alt="yulduzcha"
+                    />
+                  </Link>
+                  <span>4.8 |</span>
+                  <button>4.268 Sold</button>
+                </div>
+                <h2>$29</h2>
+              </div>
+            </div>
+
+            <div className="product">
+              <div className="product__img-box">
+                <Link to="/">
                   <img
                     className="product__img"
                     src="./images/tacos.png"
@@ -101,29 +101,29 @@ function Product() {
                     src="./images/heart.svg"
                     alt="heart icon product section"
                   />
-                </div>
-
-                <div className="product__information">
-                  <h1>Lavash</h1>
-                  <div className="product__buy">
-                    <Link to="/">
-                      <img
-                        className="degree-star"
-                        src="./images/star half.svg"
-                        alt="yulduzcha"
-                      />
-                    </Link>
-                    <span>4.8 |</span>
-                    <button>4.268 Sold</button>
-                  </div>
-                  <h2>$29</h2>
-                </div>
+                </Link>
               </div>
-            </Link>
 
-            <Link to="/">
-              <div className="product">
-                <div className="product__img-box">
+              <div className="product__information">
+                <h1>Lavash</h1>
+                <div className="product__buy">
+                  <Link to="/">
+                    <img
+                      className="degree-star"
+                      src="./images/star half.svg"
+                      alt="yulduzcha"
+                    />
+                  </Link>
+                  <span>4.8 |</span>
+                  <button>4.268 Sold</button>
+                </div>
+                <h2>$29</h2>
+              </div>
+            </div>
+
+            <div className="product">
+              <div className="product__img-box">
+                <Link to="/">
                   <img
                     className="product__img"
                     src="./images/tacos.png"
@@ -134,29 +134,29 @@ function Product() {
                     src="./images/heart.svg"
                     alt="heart icon product section"
                   />
-                </div>
-
-                <div className="product__information">
-                  <h1>Lavash</h1>
-                  <div className="product__buy">
-                    <Link to="/">
-                      <img
-                        className="degree-star"
-                        src="./images/star half.svg"
-                        alt="yulduzcha"
-                      />
-                    </Link>
-                    <span>4.8 |</span>
-                    <button>4.268 Sold</button>
-                  </div>
-                  <h2>$29</h2>
-                </div>
+                </Link>
               </div>
-            </Link>
 
-            <Link to="/">
-              <div className="product">
-                <div className="product__img-box">
+              <div className="product__information">
+                <h1>Lavash</h1>
+                <div className="product__buy">
+                  <Link to="/">
+                    <img
+                      className="degree-star"
+                      src="./images/star half.svg"
+                      alt="yulduzcha"
+                    />
+                  </Link>
+                  <span>4.8 |</span>
+                  <button>4.268 Sold</button>
+                </div>
+                <h2>$29</h2>
+              </div>
+            </div>
+
+            <div className="product">
+              <div className="product__img-box">
+                <Link to="/">
                   <img
                     className="product__img"
                     src="./images/tacos.png"
@@ -167,25 +167,25 @@ function Product() {
                     src="./images/heart.svg"
                     alt="heart icon product section"
                   />
-                </div>
-
-                <div className="product__information">
-                  <h1>Lavash</h1>
-                  <div className="product__buy">
-                    <Link to="/">
-                      <img
-                        className="degree-star"
-                        src="./images/star half.svg"
-                        alt="yulduzcha"
-                      />
-                    </Link>
-                    <span>4.8 |</span>
-                    <button>4.268 Sold</button>
-                  </div>
-                  <h2>$29</h2>
-                </div>
+                </Link>
               </div>
-            </Link>
+
+              <div className="product__information">
+                <h1>Lavash</h1>
+                <div className="product__buy">
+                  <Link to="/">
+                    <img
+                      className="degree-star"
+                      src="./images/star half.svg"
+                      alt="yulduzcha"
+                    />
+                  </Link>
+                  <span>4.8 |</span>
+                  <button>4.268 Sold</button>
+                </div>
+                <h2>$29</h2>
+              </div>
+            </div>
           </Slider>
         </div>
       </div>
