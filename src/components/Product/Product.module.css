@@ -1,0 +1,39 @@
+
+.product-slider{
+    text-align: center;
+}
+
+.product-slider img {
+   max-width: 50rem;
+   width: 100%;
+}
+
+.product-slider ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-slider ul li {
+    width: 1rem;
+    height: 1rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.product__left-icon {
+    max-width: 2rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    position: absolute;
+    top:   0;
+    left: 0;
+}
+
+@media(min-width:0) and (max-width: 375px) {
+    .product-slider img {
+        max-width: 100%;
+    }
+}
