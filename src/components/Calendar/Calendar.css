@@ -2,16 +2,17 @@
 .calendar-container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 .tail-datetime-calendar {
-    width: 900px;
+    width: 80rem;
     max-width: 80%;
     height: auto;
-    margin: 15px;
+    margin: auto;
     padding: 0;
     display: block;
     overflow: hidden;
-    position: absolute;
+    /* position: absolute; */
     border-collapse: separate;
     font-family: "Open Sans", Calibri, Arial, sans-serif;
     background-color: #ffffff;
@@ -297,3 +298,54 @@
 
 /* @end tail.DateTime */
 
+.hour-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.check-in input, .check-out input{
+    max-width: 70%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+.hour-container__icon {
+    max-width: 2rem;
+}
+
+/* !Media Query */
+
+
+.hour-title {
+    text-align: left;
+    margin-top: 2rem;
+    color: rgb(135, 135, 135);
+    padding-left: 4rem;
+}
+
+
+
+
+@media(min-width:0) and (max-width: 400px) {
+
+    .check-in input,
+    .check-out input {
+        max-width: 50%;
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+    }
+
+    .hour-title {
+        padding-left: 2.3rem;
+    
+    }
+}
+
+@media(min-width:401px) and (max-width: 675px) {
+.hour-title {
+    
+    padding-left: 4.5rem;
+    }
+}

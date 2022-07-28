@@ -295,6 +295,20 @@ export default class Calendar extends React.Component {
             </div>
           )}
         </div>
+        <h1 className="hour-title">Set the time ⏲️</h1>
+        <div className="hour-container">
+          <div className="check-in">
+            <input placeholder="check-in" type="number" name="" id="" />
+          </div>
+          <img
+            className="hour-container__icon"
+            src="./images/right.svg"
+            alt="hour-container__icon"
+          />
+          <div className="check-out">
+            <input placeholder="check-out" type="number" name="" id="" />
+          </div>
+        </div>
       </div>
     );
   }
