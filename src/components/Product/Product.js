@@ -54,7 +54,7 @@ function Product() {
         </ul>
       </div>
       <div className={style.booking}>
-        <Link className={style["booking-links"]} to="/">
+        <Link className={style["booking-links"]} to="/calendar">
           Booking
         </Link>
       </div>

@@ -7,6 +7,7 @@ import BottomMenu from "./components/Bottom-Menu/BottomMenu";
 import Buy from "./components/Buy/Buy";
 import User from "./components/User/User";
 import Product from "./components/Product/Product";
+import Calendar from "./components/Calendar/Calendar";
 import PageNotFound from "./components/Page-Not-Found/PageNotFound";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/user" element={<User />} />
           <Route path="/buy" element={<Buy />} />
           <Route path="/product" element={<Product />} />
+          <Route path="/calendar" element={<Calendar />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Router>
