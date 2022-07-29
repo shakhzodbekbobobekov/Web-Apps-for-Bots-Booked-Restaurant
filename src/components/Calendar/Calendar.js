@@ -1,6 +1,7 @@
 import React from "react";
 import moment from "moment";
 import { range } from "moment-range";
+import { Link } from "react-router-dom";
 import "./Calendar.css";
 export default class Calendar extends React.Component {
   weekdayshort = moment.weekdaysShort();
@@ -12,6 +13,16 @@ export default class Calendar extends React.Component {
     dateObject: moment(),
     allmonths: moment.months(),
     selectedDay: null,
+    count: 0,
+  };
+  addNumber = () => {
+    this.setState({ count: this.state.count + 1 });
+  };
+  deleteNumber = () => {
+    this.setState({ count: this.state.count - 1 });
+    if (this.state.count === 0) {
+      this.setState({ count: 0 });
+    }
   };
   daysInMonth = () => {
     return this.state.dateObject.daysInMonth();
@@ -245,6 +256,12 @@ export default class Calendar extends React.Component {
 
     return (
       <div className="container calendar-container">
+        <div className="go-back">
+          <img src="./images/left-icon.svg" alt="go back left-icon" />
+          <Link className="go-back__link" to="/product">
+            Go Back
+          </Link>
+        </div>
         <div className="tail-datetime-calendar">
           <div className="calendar-navi">
             <span
@@ -304,11 +321,15 @@ export default class Calendar extends React.Component {
             <input placeholder="check-out" type="time" name="" id="" />
           </div>
         </div>
+
         <div className="guest">
-          <button>-</button>
-          <span>5</span>
-          <button>+</button>
+          <button onClick={this.deleteNumber}>-</button>
+          <span>{this.state.count}</span>
+          <button onClick={this.addNumber}>+</button>
         </div>
+        <Link to="/a" className="continue">
+          continue
+        </Link>
       </div>
     );
   }

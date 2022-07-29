@@ -4,6 +4,26 @@
     justify-content: center;
     flex-direction: column;
 }
+
+.go-back {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   margin-bottom: 1rem;
+   padding-left: 2rem;
+}
+
+.go-back__link {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.go-back img {
+    max-width: 2.5rem;
+    max-height: 2.5rem;
+    padding-right: 0.5rem;
+}
+
 .tail-datetime-calendar {
     width: 80rem;
     max-width: 80%;
@@ -352,8 +372,24 @@
     font-weight: bold;
 }
 
-/* !Media Query */
+.continue {
+    width: 80%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgb(50, 183, 104);
+    margin: 1rem auto;
+    border: 0.1rem solid rgb(50, 183, 104);
+    border-radius: 1.2rem;
+    padding: 0.8rem ;
+}
 
+.continue:hover {
+    background-color: rgb(50, 183, 104);
+    color: #fff;
+}
+
+/* !Media Query */
 
 
 
