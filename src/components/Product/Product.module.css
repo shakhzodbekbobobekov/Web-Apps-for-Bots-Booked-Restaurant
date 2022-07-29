@@ -65,7 +65,7 @@
 }
 
 .social-network {
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .social-network a:hover {
@@ -74,7 +74,7 @@
 
 .social-network__item {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -84,19 +84,35 @@
 }
 
 .booking {
-    float: right;
-    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 90%; */
+    margin: 2rem auto;
 }
 
 .booking-links {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: inherit;
+    margin: 1rem auto;
     border: none;
     background-color: rgb(50, 183, 104);    
-    padding: 0.8rem 2.5rem;
     color: #fff;
     font-weight: bold;
-    letter-spacing: 0.5rem;
-    border-radius: 0.7rem;
+    letter-spacing: 0.7rem;
+    border-radius: 1.5rem;
+    font-size: 1.6rem;
 }
+
+.booking-links img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
 
 .booking-links:hover {
     opacity: 0.8;
@@ -105,6 +121,21 @@
 .booking-links:active {
     opacity: 0.8;
 }
+
+.booking-price {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media(min-width:0) and (max-width: 375px) {
     .product-slider img {

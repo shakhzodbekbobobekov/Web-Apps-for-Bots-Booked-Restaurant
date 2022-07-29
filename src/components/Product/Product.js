@@ -24,7 +24,7 @@ function Product() {
           src="./images/star half.svg"
           alt="yulduzcha"
         />
-        <span>4.9 (4.79 reviews)</span>
+        <span>4.9</span>
       </div>
       <div className={style["product-description"]}>
         <h2>Description</h2>
@@ -54,7 +54,14 @@ function Product() {
         </ul>
       </div>
       <div className={style.booking}>
+        <span className={style["booking-price"]}>$72</span>
         <Link className={style["booking-links"]} to="/calendar">
+          <img
+            src="./images/bag-shopping.svg"
+            alt="product bag-shopping.svg"
+            width={20}
+            height={20}
+          />
           Booking
         </Link>
       </div>

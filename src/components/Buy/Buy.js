@@ -1,7 +1,12 @@
 import React from "react";
+import PageNotFound from "../Page-Not-Found/PageNotFound";
 
 function Buy() {
-  return <div>Buy</div>;
+  return (
+    <div>
+      <PageNotFound />
+    </div>
+  );
 }
 
 export default Buy;
