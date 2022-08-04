@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Searchbar from "./components/Search/Searchbar";
 import Products from "./components/Products/Products";
 import BottomMenu from "./components/Bottom-Menu/BottomMenu";
-import Buy from "./components/Buy/Buy";
+import Booking from "./components/Booking/Booking";
 import User from "./components/User/User";
 import Product from "./components/Product/Product";
 import Calendar from "./components/Calendar/Calendar";
@@ -21,7 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Products />} />
           <Route path="/user" element={<User />} />
-          <Route path="/buy" element={<Buy />} />
+          <Route path="/booking" element={<Booking />} />
           <Route path="/product" element={<Product />} />
           <Route path="/calendar" element={<Calendar />} />
           <Route path="*" element={<PageNotFound />} />
