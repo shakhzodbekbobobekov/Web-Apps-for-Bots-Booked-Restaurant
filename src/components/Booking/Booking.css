@@ -57,7 +57,7 @@
     padding: 0;
     transition: 0.5s;
     font-size: 1rem;
-    width: 0px;
+    width: 0;
 }
 
 .booking-search-btn {

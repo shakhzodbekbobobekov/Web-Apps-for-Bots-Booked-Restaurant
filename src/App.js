@@ -1,5 +1,6 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Searchbar from "./components/Search/Searchbar";
 import Products from "./components/Products/Products";
@@ -11,22 +12,33 @@ import Calendar from "./components/Calendar/Calendar";
 import PageNotFound from "./components/Page-Not-Found/PageNotFound";
 
 function App() {
+  const { pathname } = useLocation();
+  const [showNavSearch, setShowNavSearch] = useState(true);
+  console.log(pathname);
+
+  useEffect(() => {
+    if (pathname !== "/") {
+      setShowNavSearch(false);
+    } else {
+      setShowNavSearch(true);
+    }
+  }, [pathname]);
+
   return (
     <div className="App">
-      <Router>
-        <Navbar />
-        <Searchbar />
-        <BottomMenu />
+      {showNavSearch && <Navbar />}
+      {showNavSearch && <Searchbar />}
 
-        <Routes>
-          <Route path="/" element={<Products />} />
-          <Route path="/user" element={<User />} />
-          <Route path="/booking" element={<Booking />} />
-          <Route path="/product" element={<Product />} />
-          <Route path="/calendar" element={<Calendar />} />
-          <Route path="*" element={<PageNotFound />} />
-        </Routes>
-      </Router>
+      <BottomMenu />
+
+      <Routes>
+        <Route path="/" element={<Products />} />
+        <Route path="/user" element={<User />} />
+        <Route path="/booking" element={<Booking />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/calendar" element={<Calendar />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Routes>
     </div>
   );
 }

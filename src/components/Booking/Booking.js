@@ -47,7 +47,7 @@ function Booking() {
                 <span className="booking-time">08:00 - 18:00</span>
                 <div className="booking-void">
                   <span className="booking-data">05.08.2022</span>
-                  <button className="booking-cancellation">Cancellation</button>
+                  <button className="booking-cancellation">Cancel</button>
                 </div>
               </div>
             </li>
@@ -59,7 +59,7 @@ function Booking() {
                 <span className="booking-time">08:00 - 18:00</span>
                 <div className="booking-void">
                   <span className="booking-data">05.08.2022</span>
-                  <button className="booking-cancellation">Cancellation</button>
+                  <button className="booking-cancellation">Cancel</button>
                 </div>
               </div>
             </li>
@@ -71,7 +71,7 @@ function Booking() {
                 <span className="booking-time">08:00 - 18:00</span>
                 <div className="booking-void">
                   <span className="booking-data">05.08.2022</span>
-                  <button className="booking-cancellation">Cancellation</button>
+                  <button className="booking-cancellation">Cancel</button>
                 </div>
               </div>
             </li>
